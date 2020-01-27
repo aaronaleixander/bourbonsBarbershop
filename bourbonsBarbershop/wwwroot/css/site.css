@@ -72,7 +72,7 @@ for details on configuring this project to bundle and minify static web assets. 
     #logo path:nth-child(9) {
         stroke-dasharray: 521.4205932617188;
         stroke-dashoffset: 521.4205932617188;
-        animation: line-anim 3s ease forwards;
+        animation: line-anim 3s ease forwards 2.4s;
     }
 
     #logo path:nth-child(10) {
