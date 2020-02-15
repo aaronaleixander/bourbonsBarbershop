@@ -8,7 +8,7 @@ namespace bourbonsBarbershop.Controllers
 {
     public class AccountController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Account()
         {
             return View();
         }
