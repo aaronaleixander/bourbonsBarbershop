@@ -32,7 +32,7 @@ for details on configuring this project to bundle and minify static web assets. 
     background-image: url("../Images/cobalt-bourbons.jpg");
     margin-left: 50px;
     background-size: cover;
-    border: solid gray;
+    border: solid orange;
     padding: 10px;
     box-shadow: 2px 2px #07176F;
 }
@@ -43,10 +43,13 @@ for details on configuring this project to bundle and minify static web assets. 
     background-image: url("../Images/mercury.png");
     margin-left: 50px;
     background-size: cover;
+    border: solid orange;
 }
 
 #product-disclaimers {
-    color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
 }
 
 
@@ -62,11 +65,11 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 
 #homeImage img {
-        margin-top: 50px;
-        width: 100%;
-        border: solid black;
-        align-content: center;
-        padding: 5px;
+    margin-top: 50px;
+    width: 100%;
+    border: solid orange;
+    align-content: center;
+    padding: 5px;
 }
 
 
