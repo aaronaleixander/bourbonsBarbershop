@@ -17,6 +17,7 @@ for details on configuring this project to bundle and minify static web assets. 
     position: relative;
     z-index: -1;
     
+    
 }
 
 #product-bannertext {
@@ -35,6 +36,13 @@ for details on configuring this project to bundle and minify static web assets. 
     border: solid orange;
     padding: 10px;
     box-shadow: 2px 2px #07176F;
+}
+
+#cobalt-info {
+    color: white;
+    position: relative;
+    
+    display: flex;
 }
 
 #product-two {
