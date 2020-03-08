@@ -16,20 +16,23 @@ for details on configuring this project to bundle and minify static web assets. 
     background-color: navy;
     position: relative;
     z-index: -1;
-    
-    
 }
 
 #product-bannertext {
     color: white;
     margin-left: 75px;
     font-family: 'Patrick Hand SC', cursive;
-    
+}
+
+#top-product {
+    height: 500px;
+    width: 1000px;
 }
 
 #product-one {
     width: 300px;
     height: 300px;
+    float:left;
     background-image: url("../Images/cobalt-bourbons.jpg");
     margin-left: 50px;
     background-size: cover;
@@ -41,7 +44,7 @@ for details on configuring this project to bundle and minify static web assets. 
 #cobalt-info {
     color: white;
     position: relative;
-    
+    float: right;
     display: flex;
 }
 
