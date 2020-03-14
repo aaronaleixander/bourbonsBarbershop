@@ -7,12 +7,10 @@ for details on configuring this project to bundle and minify static web assets. 
     width: 75px;
 }
 
-
-
 /*PRODUCT PAGE CSS*/
 #product-container {
     width: 100%;
-    height: 100%;
+    height: 1200px;
     background-color: navy;
     position: relative;
     z-index: -1;
@@ -43,24 +41,29 @@ for details on configuring this project to bundle and minify static web assets. 
 
 #cobalt-info {
     color: white;
-    position: relative;
-    float: right;
-    display: flex;
+    margin-left: 450px;
+}
+
+#mercury-info {
+    color: white;
+    margin-left: 450px;
 }
 
 #product-two {
     width: 300px;
     height: 600px;
+    float: left;
     background-image: url("../Images/mercury.png");
     margin-left: 50px;
     background-size: cover;
     border: solid orange;
+    padding-bottom: 20px;
 }
 
 #product-disclaimers {
-    color: white;
+    color: black;
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 
