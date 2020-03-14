@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bourbonsBarbershop.Data
 {
-    public class CustomerDb
+    public static class CustomerDb
     {
         /// <summary>
         /// Add UserAccounts to database. Return user with ID populated.
