@@ -11,6 +11,9 @@ namespace bourbonsBarbershop.Data
     {
         public BourbonsContext(DbContextOptions<BourbonsContext> options) 
             : base(options) { }
+
         // Db Sets
+        public DbSet<Customer> Customer { get; set; }
+        public DbSet<Products> Products { get; set; }
     }
 }
