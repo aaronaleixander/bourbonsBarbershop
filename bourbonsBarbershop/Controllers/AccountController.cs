@@ -65,11 +65,11 @@ namespace bourbonsBarbershop.Controllers
                     TempData["Message"] = "Logged in sucessfully";
 
                     // Create current session for the user.
-                    _httpAccessor.HttpContext.Session.SetInt32("UserID", customer.CustomerId);
+                    _httpAccessor.HttpContext.Session.SetInt32("CustomerId", customer.CustomerId);
                     _httpAccessor.HttpContext.Session.SetString("FirstName", customer.FirstName);
 
 
-                    return RedirectToAction("Talent", "Home");
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {
