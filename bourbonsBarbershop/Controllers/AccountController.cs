@@ -80,9 +80,11 @@ namespace bourbonsBarbershop.Controllers
             return View(model);
         }
 
-        public IActionResult Account()
+        public IActionResult Logout()
         {
-            return View();
+            _httpAccessor.HttpContext.Session.Clear();
+            TempData["Message"] = " You have been logged out";
+            return RedirectToAction("Index", "Home");
         }
     }
 }
