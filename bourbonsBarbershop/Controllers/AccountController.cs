@@ -45,7 +45,7 @@ namespace bourbonsBarbershop.Controllers
                 TempData["Message"] = "Welcome to Bourbons.";
                 return RedirectToAction("Index", "Home");
             }
-            return View(customer);
+            return  View(customer);
         }
 
         // LOGIN

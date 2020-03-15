@@ -37,6 +37,6 @@ namespace bourbonsBarbershop.Models
         /// </summary>
         [Required]
         [Display(Name = "Price:")]
-        public decimal ProductPrice { get; set; }
+        public double ProductPrice { get; set; }
     }
 }

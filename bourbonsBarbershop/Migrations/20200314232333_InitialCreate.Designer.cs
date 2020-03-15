@@ -9,7 +9,7 @@ using bourbonsBarbershop.Data;
 namespace bourbonsBarbershop.Migrations
 {
     [DbContext(typeof(BourbonsContext))]
-    [Migration("20200314222600_InitialCreate")]
+    [Migration("20200314232333_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -76,8 +76,8 @@ namespace bourbonsBarbershop.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("ProductPrice")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("ProductPrice")
+                        .HasColumnType("float");
 
                     b.Property<string>("ProductType")
                         .IsRequired()

@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200314222600_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200314222600_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\Images\IMG1.jpg" />
   </ItemGroup>
 

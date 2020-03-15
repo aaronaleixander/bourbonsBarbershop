@@ -35,7 +35,7 @@ namespace bourbonsBarbershop.Migrations
                     ProductType = table.Column<string>(nullable: false),
                     ProductName = table.Column<string>(nullable: false),
                     ProductDescription = table.Column<string>(nullable: false),
-                    ProductPrice = table.Column<decimal>(nullable: false)
+                    ProductPrice = table.Column<double>(nullable: false)
                 },
                 constraints: table =>
                 {

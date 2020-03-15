@@ -74,8 +74,8 @@ namespace bourbonsBarbershop.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("ProductPrice")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("ProductPrice")
+                        .HasColumnType("float");
 
                     b.Property<string>("ProductType")
                         .IsRequired()

@@ -10,7 +10,7 @@ namespace bourbonsBarbershop.Data
     public static class CustomerDb
     {
         /// <summary>
-        /// Add UserAccounts to database. Return user with ID populated.
+        /// Add Customer Accounts to database. Return user with ID populated.
         /// </summary>
         /// <param name="context">db context class</param>
         /// <param name="customer">Customer account being added</param>
