@@ -18,13 +18,13 @@ for details on configuring this project to bundle and minify static web assets. 
 #product-container {
     width: 100%;
     height: 1200px;
-    background-color: navy;
+    border: solid brown;
     position: relative;
     z-index: -1;
 }
 
 #product-bannertext {
-    color: white;
+    color: black;
     margin-left: 75px;
     font-family: 'Patrick Hand SC', cursive;
 }
@@ -47,12 +47,12 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 
 #cobalt-info {
-    color: white;
+    color: black;
     margin-left: 450px;
 }
 
 #mercury-info {
-    color: white;
+    color: black;
     margin-left: 450px;
 }
 
@@ -65,6 +65,7 @@ for details on configuring this project to bundle and minify static web assets. 
     background-size: cover;
     border: solid orange;
     padding-bottom: 20px;
+    box-shadow: 2px 2px #07176F;
 }
 
 #product-disclaimers {
@@ -99,6 +100,7 @@ for details on configuring this project to bundle and minify static web assets. 
     background-image: url("../Images/barberthree.jpg");
     margin-left: 50px;
     border: solid orange;
+    box-shadow: 2px 2px #07176F;
 }
 
 #firstbarber-info {
@@ -117,6 +119,7 @@ for details on configuring this project to bundle and minify static web assets. 
     background-image: url("../Images/barbera.jpg");
     margin-left: 50px;
     border: solid orange;
+    box-shadow: 2px 2px #07176F;
 }
 
 #secondbarber-info, #thirdbarber-info {
@@ -131,6 +134,7 @@ for details on configuring this project to bundle and minify static web assets. 
     background-image: url("../Images/barberfive.jpg");
     margin-left: 50px;
     border: solid orange;
+    box-shadow: 2px 2px #07176F;
 }
 
 
@@ -179,8 +183,14 @@ for details on configuring this project to bundle and minify static web assets. 
     padding-top: .5em;
     text-align: center;
     width: 100%;
-    height: 400px;
+    height: 250px;
     
+}
+
+#bottom-location {
+    margin-bottom: 3em;
+    margin-left: 100px;
+    float: left;
 }
 
 #banner-title {
