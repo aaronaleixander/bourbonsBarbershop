@@ -73,8 +73,76 @@ for details on configuring this project to bundle and minify static web assets. 
     font-size: 20px;
 }
 
+#btnstyle {
+    border-color: aqua;
+}
+
+/* TALENT PAGE CSS*/
+#talent-bannertext {
+    color: black;
+    margin-left: 75px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+#talenthtml {
+    width: 100%;
+    height: 1250px;
+    border: solid black;
+}
+
+
+
+#firstbarber-image {
+    width: 350px;
+    height: 350px;
+    float: left;
+    background-image: url("../Images/barberthree.jpg");
+    margin-left: 50px;
+    border: solid orange;
+}
+
+#firstbarber-info {
+    color: black;
+    margin-left: 450px;
+}
+
+#secondbarber, #thirdbarber {
+    margin-top: 100px;
+}
+
+#secondbarber-image {
+    width: 350px;
+    height: 350px;
+    float: left;
+    background-image: url("../Images/barbera.jpg");
+    margin-left: 50px;
+    border: solid orange;
+}
+
+#secondbarber-info, #thirdbarber-info {
+    color: black;
+    margin-left: 450px;
+}
+
+#thirdbarber-image {
+    width: 350px;
+    height: 350px;
+    float: left;
+    background-image: url("../Images/barberfive.jpg");
+    margin-left: 50px;
+    border: solid orange;
+}
+
+
+
 
 /*HOME PAGE CSS*/
+#mainhtml {
+    width: 100%;
+    height: 1500px;
+    border: solid gray;
+}
+
 #login-nav {
     padding-left: 600px;
 }
@@ -108,7 +176,7 @@ for details on configuring this project to bundle and minify static web assets. 
     font-family: 'Patrick Hand SC', cursive;
     font-size: 1.5em;
     color: black;
-    padding-top:3em;
+    padding-top: .5em;
     text-align: center;
     width: 100%;
     height: 400px;
